@@ -377,6 +377,6 @@ def update_table(exchange, leverage, start_date, end_date):
 # Ejecutor
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server(debug=True,host = "0.0.0.0")
 
 # ============================================================================== #
